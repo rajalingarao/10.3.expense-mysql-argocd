@@ -10,9 +10,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rajalingarao/10.2.expense-mysql-argocd.git
+    repoURL: https://github.com/rajalingarao/10.3S.expense-mysql-argocd.git
     targetRevision: main   # or a tag/commit hash
-    path: .       # folder in repo with Kubernetes YAMLs
+    path: mysql       # folder in repo with Kubernetes YAMLs
     helm:
       releaseName: mysql
       valueFiles:
