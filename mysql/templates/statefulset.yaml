@@ -26,6 +26,7 @@ spec:
         volumeMounts:
         - name: mysql
           mountPath: /var/lib/mysql
+  
   # Instead of creating a PVC resource, you can directly provide in statefulset
   volumeClaimTemplates:
   - metadata:
